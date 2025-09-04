@@ -1,0 +1,204 @@
+- title: Shader Basics, Blending and Textures | Shaders for Game Devs E1
+  url: https://www.youtube.com/watch?v=kfM-yu0iQBk
+  description: Amazing 3 part lecture on shader coding for game devs by Freya Holmér.
+  tags: [VRChat, Unity, Frag, Vert, HLSL, Noob, Video]
+
+- title: The Book of Shaders
+  url: https://thebookofshaders.com/
+  description: "A gentle step-by-step guide through the abstract and complex universe of Fragment Shaders."
+  tags: [VRChat, GLSL, Noob, Frag]
+
+- title: HLSL Language Syntax Docs
+  url: https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-language-syntax 
+  description: Official documentation for HLSL.
+  tags: [HLSL, Noob, VRChat]
+
+- title: GLSL to HLSL Reference
+  url: https://learn.microsoft.com/en-us/windows/uwp/gaming/glsl-to-hlsl-reference
+  description: A reference that shows the differences between GLSL and HLSL. Extremely useful for porting GLSL shaders to HLSL.
+  tags: [VRChat, HLSL, GLSL]
+
+- title: Shader-Knowledge Repo
+  url: https://github.com/pema99/shader-knowledge
+  description: A repo by Pema99 that "document's obscure technical VRChat knowledge, mostly related to shader development." Must read for anyone delving into advanced VRChat shader work.
+  tags: [VRChat, VRCHack, Unity, Collection, Geom, Frag, Vert, HLSL]
+
+- title: Shadertrixx Repo
+  url: https://github.com/cnlohr/shadertrixx
+  description: A repo by CNLohr that contains "Unity assets and other shader notes surrounding VRChat". Must read for anyone delving into advanced VRChat shader work.
+  tags: [VRChat, VRCHack, Unity, Collection, Geom, Frag, Vert, Tess, Screen, HLSL]
+
+- title: iquilezles.org
+  url: https://iquilezles.org/articles/
+  description: An incredibly detailed and valuable resource containing articles on a ton of math and shader topics by the co-creator of Shadertoy, Inigo Quilez. This has the best articles on SDF's, procedural noise and raymarching/tracing related techniques I have seen.
+  tags: [VRChat, Shadertoy, Collection, Math, GLSL, Perf]
+
+- title: Shadertoy
+  url: https://www.shadertoy.com/
+  description: A website where users can create and publicly share their shaders and shader code. Please be mindful of licenses when exploring, porting, or using code from here!
+  tags: [VRChat, Shadertoy, Frag, GLSL]
+
+- title: Introduction to Computer Graphics
+  url: https://www.youtube.com/playlist?list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh
+  description: A 25 episode introductory college course on computer graphics by Cem Yuksel at University of Utah. This is an introductory course, it covers topics like rasterization, transformations, curves, the GPU pipeline, surfaces, and shading. If you are just interested in writing shaders inside of a game engine like Unity, this can be skipped until a later point.
+  tags: [Math, Frag, Vert, Fundamentals, Video]
+
+- title: Interactive Computer Graphics
+  url: https://www.youtube.com/playlist?list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN
+  description: A 26 episode college course on interactive computer graphics by Cem Yuksel at University of Utah. Highly recommend the videos on Geometry and Tessellation shaders if those are subjects that have felt arcane to you.
+  tags: [Math, Frag, Vert, Geom, Tess, Fundamentals, Video]
+
+- title: Acerola
+  url: https://www.youtube.com/@Acerola_t
+  description: A Youtuber that implements various graphics techniques at a rather high level. Great for being exposed to new techniques and possible projects to try.
+  tags: [Collection, Math, Frag, Screen, Vert, Geom, Tess, Compute, Perf, Video]
+
+- title: GM Shaders
+  url: https://mini.gmshaders.com/archive
+  description: A collection of various articles on shaders. 
+  tags: [Collection, Frag, Math]
+
+- title: Shader languages support for VS Code
+  url: https://marketplace.visualstudio.com/items?itemName=slevesque.shader
+  description: A VSCode extension that adds HLSL, GLSL, and Cg syntax highlighting and autocomplete.
+  tags: [Tool]
+
+- title: Custom Render Texture
+  url: https://docs.unity3d.com/Manual/class-CustomRenderTexture.html
+  description: The Unity documentation page for Custom Render Textures (CRTs). CRTs can be used to make shaders stateful (persist data between frames) in VRC as we cannot use graphics.blit on avatars. 
+  tags: [VRChat, VRCHack, Unity, Frag]
+
+- title: GPU Shader Tutorial
+  url: https://shader-tutorial.dev/
+  description: "The purpose of this website is to provide a simple understanding about the concept of GPU shaders, their types, purpose, and how they work and can be used to perform a variety of operations that can create effects or perform certain actions that leverage the power of a GPU."
+  tags: [Noob, Fundamentals, Math, Vert, Frag]
+
+- title: Easing Functions
+  url: https://easings.net/
+  description: A bunch of easing functions with implementation details. Useful for animations.
+  tags: [Math]
+
+- title: Computer Graphics, Fall 2009
+  url: https://www.youtube.com/playlist?list=PL_w_qWAQZtAZhtzPI5pkAtcUVgmzdAP8g
+  description: A 21 episode college course on computer graphics by Ken Joy at UC Davis.
+  tags: [Math, Fundamentals, Video]
+
+- title: The Arm Manga Guide to the Mali
+  url: https://interactive.arm.com/story/the-arm-manga-guide-to-the-mali-gpu/page/1
+  description: A manga (yes, a literal manga) introduction to ARM GPU's. Not super expansive, but fairly detailed. For the VRC players, this explains a bit of why mobile headsets and transparency don't mix well.
+  tags: [Fundamentals]
+
+- title: Perfect Pistons in Shadertoy
+  url: https://www.youtube.com/watch?v=I8fmkLK1OKg
+  description: Covers an elegant solution for combatting overstepping when raymarching varied SDFs under domain repetition.
+  tags: [Shadertoy, GLSL, Frag, Video]
+
+- title: Useful Functions for Shader Live Coding
+  url: https://suricrasia.online/blog/shader-functions/
+  description: A set of functions for various uses. (Rotations, noise, etc.)
+  tags: [Collection, Shadertoy, GLSL, Frag]
+
+- title: How do Video Game Graphics Work?
+  url: https://www.youtube.com/watch?v=C8YtdC8mxTU
+  description: A fairly indepth explanation video that goes over the basics of rendering.
+  tags: [Fundamentals, Noob, Vert, Frag, Video]
+
+- title: Quick Understanding of Homogeneous Coordinates for Computer Graphics
+  url: https://www.youtube.com/watch?v=o-xwmTODTUI
+  description: Exactly what it says on the box.
+  tags: [Fundamentals, Math, Video]
+
+- title: How to Open a Black Box (originally from MIT GAMBIT)
+  url: https://www.youtube.com/watch?v=SYomOZIfeoU
+  description: A video that covers various computer graphics topics. Has a very detailed explanation of tangent space normals at the end.
+  tags: [Fundamentals, Math, Video]
+
+- title: The Matrix and Quaternions FAQ
+  url: http://www.opengl-tutorial.org/assets/faq_quaternions/index.html
+  description: Matrices and Quaternions explained in *absolute* detail.
+  tags: [Fundamentals, Math]
+
+- title: The Shader Grimoire
+  url: https://github.com/OwenTheProgrammer/The-Shader-Grimoire/tree/main
+  description: Described as "A couple cursed hyper-optimized or demonstrative shader things that will add me to your personal hit list". Of note a custom CRT UnityCustomRenderTexture.cginc implementation that is faster and easier to use than the standard one.
+  tags: [Math, Frag, Geom, VRCHack, VRChat, HLSL]
+
+- title: An Investigation Of Fast Real-Time GPU-based Image Blur Algorithms
+  url: https://www.intel.com/content/www/us/en/developer/articles/technical/an-investigation-of-fast-real-time-gpu-based-image-blur-algorithms.html
+  description: An Investigation Of Fast Real-Time GPU-based Image Blur Algorithms. Explains separable (two pass) blur.
+  tags: [Math, Screen, VRChat]
+
+- title: BlendModes
+  url: https://github.com/supyrb/ConfigurableShaders/wiki/BlendModes
+  description: A repo with images that show all of the different blend modes available in Unity.
+  tags: [Unity, VRChat]
+
+- title: UnityShaderCheatsheet
+  url: https://github.com/nothke/UnityShaderCheatsheet/blob/master/ShaderCheatsheet.shader
+  description: A repo with a very well explained and broken down Unity shader.
+  tags: [Unity, VRChat, HLSL]
+
+- title: How to use the stencil buffer in Unity
+  url: https://www.youtube.com/watch?v=-NB2TR8IjE8
+  description: A video that explains the stencil buffer in Unity.
+  tags: [Unity, VRChat, Video]
+
+- title: motionblur existing shaders 2blu 
+  url: https://www.shadertoy.com/view/7sGfzW
+  description: A clever technique for adding motion blur to moving shapes in a shader by varying the time value.
+  tags: [Shadertoy, Frag, GLSL]
+
+- title: CompactSparseTextureDemo
+  url: https://github.com/d4rkc0d3r/CompactSparseTextureDemo
+  description: A repo by d4rkplayer that shows how to abuse mipmaps to compact sparse data on a texture. 
+  tags: [Unity, VRChat, VRCHack, HLSL]
+
+- title: Why Wrapping Sound Around a Sphere Changed Real-Time Rendering
+  url: https://www.youtube.com/watch?v=cddCr95fnvI
+  description: A video that covers spherical harmonics.
+  tags: [Math, Fundamentals, Video]
+
+- title: GeometryShaderCookbook
+  url: https://github.com/ted10401/GeometryShaderCookbook
+  description: A repo with example geometry shaders that show off almost everything that they are capable of.
+  tags: [Unity, VRChat, HLSL]
+
+- title: Per-Object Motion Blur
+  url: https://john-chapman-graphics.blogspot.com/2013/01/per-object-motion-blur.html
+  description: An explanation of using the previous MVP matrix of a model to do motion blur.
+  tags: [GLSL, Frag, Vert]
+
+- title: The Art Of Packing Data
+  url: https://www.elopezr.com/the-art-of-packing-data/
+  description: Covers various examples of packing data for shaders.
+  tags: [Fundamentals, VRChat]
+
+- title: Algorithms for making interesting organic simulations
+  url: https://bleuje.com/physarum-explanation/
+  description: Covers various examples of packing data for shaders.
+  tags: [Fundamentals, Math, GLSL]
+
+- title: Game Tools
+  url: https://github.com/GhislainGir/GameToolsDoc/wiki
+  description: Blender add-on for baking vertex animations, object transforms, bone data, SDFs, etc.
+  tags: [Tool]
+
+- title: GPU Optimization for GameDev
+  url: https://gist.github.com/silvesthu/505cf0cbf284bb4b971f6834b8fec93d
+  description: A list of optimization related resources.
+  tags: [Perf]
+
+- title: Branching on a GPU
+  url: https://medium.com/@jasonbooth_86226/branching-on-a-gpu-18bfc83694f2
+  description: Branching actually not that bad, often fine :P
+  tags: [Perf]
+
+- title: Illuminating the Shade
+  url: https://tlx.dev/talks/tlx-december-2020/illuminating-the-shade
+  description: Lyuma talks about shaders. 
+  tags: [VRChat, Noob, Unity, HLSL, Vert, Frag, Surf]
+
+- title: Next-Generation SpeedTree Rendering
+  url: https://developer.nvidia.com/gpugems/gpugems3/part-i-geometry/chapter-4-next-generation-speedtree-rendering
+  description: Discusses "several features of the GeForce 8800 that enable high-quality, next-generation extensions to SpeedTree. First, silhouette clipping adds detail to branch and trunk outlines. Next, shadow mapping adds realistic self-shadowing at the level of individual leaves. Additionally, we further refine the lighting with a two-sided-leaf lighting model and high-dynamic-range (HDR) rendering. Finally, multisample antialiasing along with alpha to coverage provide very high visual quality, free from aliasing artifacts."
+  tags: [Math, Geom, Frag, Vert]

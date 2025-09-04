@@ -1,8 +1,32 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Shader Tips
+description: A link site of all the various useful shader sites and information that I have stumbled on over time.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://shader.tips
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Contribute Knowledge:
+    - https://github.com/ZekkVRC/shader.tips
+
+FirstPartyAuthorLink: "https://links.zekk.dev"
+
+color_scheme: dark
+
+logo: /assets/LogoLo4800.gif
+favicon_ico: /assets/LogoLo4800.gif
+
+enable_copy_code_button: true
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+  caution:
+    title: Caution
+    color: yellow
+  dumb:
+    title: VRChat Specific Technique
+    color: blue
+  ThirdPartyLicense:
+    title: Third Party License
+    color: red

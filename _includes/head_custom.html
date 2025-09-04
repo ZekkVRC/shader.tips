@@ -1,0 +1,44 @@
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/2.3.3/css/dataTables.dataTables.css" />
+<script src="https://cdn.datatables.net/2.3.3/js/dataTables.js"></script>
+<link href="https://cdn.datatables.net/columncontrol/1.0.7/css/columnControl.dataTables.min.css" rel="stylesheet">
+<script src="https://cdn.datatables.net/columncontrol/1.0.7/js/dataTables.columnControl.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+    var table = $('#linkTable').DataTable({
+        layout: {
+            topStart: 'info',
+            bottom: null,
+            bottomStart: null,
+            bottomEnd: null
+        },
+        ordering: false,
+        paging: false,
+        columnControl: ['search']
+    });
+    });
+</script>
+<html class="dark">
+</html>
+
+<style>
+  .tag {
+    display: inline-block;
+    background: rgb(216, 169, 255);
+    color: #223;
+    border-radius: 4px;
+    padding: 2px 6px;
+    margin: 2px 4px 2px 0;
+    font-size: 0.85em;
+  }
+</style>
+
+<script>
+fetch("https://shadertipscounter.zekkvrc.workers.dev{{ page.url }}")
+  .then(response => response.text())
+  .then(count => {
+    document.getElementById("hit-count").innerText = count;
+  });
+</script>

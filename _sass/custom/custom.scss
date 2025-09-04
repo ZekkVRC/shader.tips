@@ -1,0 +1,19 @@
+@media (min-width: 50rem) {
+  .site-header {
+    height: 10rem;
+    max-height: 10rem;
+    border-bottom: 1px solid #44434d;
+  }
+}
+.side-bar {
+  @include mq(lg) {
+    width: $nav-width;
+    min-width: $nav-width;
+  }
+}
+.main {
+    @include mq(md) {
+        margin-left: $nav-width !important; /* same as sidebar width */
+        max-width: calc(100% - $nav-width) !important;
+    }
+    }
