@@ -12,9 +12,11 @@ nav_order: 1
 
 Welcome! I'm Zekk!
 
-I write shaders and cook up assets for people to use in VRChat. Most of my area of interest is in special effects and VFX. 
+I write shaders and cook up assets for people to use in VRChat. Most of my area of interest is in special effects and VFX. You can find my socials and other info <a href="{{ site.FirstPartyAuthorLink }}" target="_blank" >here</a>.
 
 This site serves both as a place for my to finally put all of the links I have hoarded over the past few years, and also a place for me to direct people who ask me: "Where do I start with learning shaders?"<br>
+
+I also plan on writing up some of my own articles over time on shader stuff that I have explored. <br>
 
 A lot of the content on the site will likely be biased towards Unity and VRChat focused shader content. It is simply what I am most familiar with. However, there will be a smattering of general computer graphics and tech art content as well!<br>
 
