@@ -36,11 +36,11 @@ There are a few reasons for this, but the core three are this:
 1. Most other popular shaders for VRChat are code which helps get you used to digging into them if you want to add features, or make modifications.
 2. Nodes become unwieldy as they get more complex. At some point your graph is so big that you spend more time managing your graph than working on the shader. This also happens for code, but its much easier to manage.
 3. Nodes cannot* do some things that advanced VRChat shader tech requires (Geometry shaders, Loops).<br>
-<small>*Nodes can do some of these in certain cases, I believe amplify now supports geometry shaders, and loops can be done in the custom code node, but at that point you are just writing code in your nodes...</small>
+<small>*Nodes can do some of these in certain cases, loops can be done in the custom code node, but at that point you are just writing code in your nodes...</small>
 
 There is also a resources issue. The reality is that most interesting shader stuff is not written in nodes. Once you get past the beginner stage where you are following tutorials, you will likely find yourself starved for new content. This often means that to learn often you are just converting code to nodes anyway.
 
-The main **advantages** of using nodes is that they are less intimidating, faster to get started with, and offer a *very* useful live preview at each node of what the effect currently looks like.
+The main **advantages** of using nodes is that they are less intimidating, faster to get started with, more intuitive to people who have previously worked with other design software or have a designer brain, and offer a *very* useful live preview at each node of what the effect currently looks like.
 
 If you already know a programming language, to me this is a no-brainer, go for code. If you don't, and are considering nodes because they are less intimidating and don't require you to learn to code, I would seriously consider how deep you hope to go with shaders. If the answer is "deep" consider learning programming along with shaders! I promise you won't regret it :P
 
