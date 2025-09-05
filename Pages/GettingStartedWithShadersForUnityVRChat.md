@@ -1,7 +1,7 @@
 ---
 title: Getting Started With Shaders
 layout: post
-nav_order: 1
+nav_order: 2
 published: True
 ---
 {: .WIP }
