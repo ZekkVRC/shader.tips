@@ -38,7 +38,7 @@ There are a few reasons for this, but the core three are this:
 3. Nodes cannot* do some things that advanced VRChat shader tech requires (Geometry shaders, Loops).<br>
 <small>*Nodes can do some of these in certain cases, loops can be done in the custom code node, but at that point you are just writing code in your nodes...</small>
 
-There is also a resources issue. The reality is that most interesting shader stuff is not written in nodes. Once you get past the beginner stage where you are following tutorials, you will likely find yourself starved for new content. This often means that to learn often you are just converting code to nodes anyway.
+There is also a resources issue. The reality is that most interesting shader stuff is not written in nodes. Once you get past the beginner stage where you are following tutorials, you will likely find yourself starved for new content. This often means that to learn, often you are just converting code to nodes anyway.
 
 The main **advantages** of using nodes is that they are less intimidating, faster to get started with, more intuitive to people who have previously worked with other design software or have a designer brain, and offer a *very* useful live preview at each node of what the effect currently looks like.
 
