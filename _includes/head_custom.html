@@ -20,6 +20,7 @@
     });
     });
 </script>
+
 <html class="dark">
 </html>
 
@@ -36,9 +37,50 @@
 </style>
 
 <script>
-fetch("https://shadertipscounter.zekkvrc.workers.dev{{ page.url }}")
+fetch("https://shadertipscounter.zekkvrc.workers.dev/{{ page.path | split: "/" | last }}")
   .then(response => response.text())
   .then(count => {
     document.getElementById("hit-count").innerText = count;
   });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll("#linkTable tbody tr td div .expandRow");
+        const rows = document.querySelectorAll("#linkTable tbody tr");
+
+
+        buttons.forEach((butt, index) => {
+        butt.addEventListener("click", function (e) {
+            rows[index].classList.toggle("expanded");
+            if(rows[index].classList.contains("expanded")){
+                butt.textContent = "▼";
+            } else {
+                butt.textContent = "➤";
+            }
+        });
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let allExpanded = true;
+        document.getElementById("expandAllButton").addEventListener("click", function() {
+            const xab = document.getElementById("expandAllButton");
+            const buttons = document.querySelectorAll("#linkTable tbody tr td div .expandRow");
+            const rows = document.querySelectorAll("#linkTable tbody tr");
+            rows.forEach((row, index) => {
+                row.classList.toggle("expanded", allExpanded);
+                if(!allExpanded){
+                    buttons[index].textContent = "➤";
+                    xab.textContent = "➤";
+                } else {
+                    buttons[index].textContent = "▼";
+                    xab.textContent = "▼";
+                }
+            });
+            allExpanded = !allExpanded;
+        });
+    });
 </script>

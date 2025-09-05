@@ -1,6 +1,7 @@
 ---
 title: Code License
-layout: home
+layout: post
+parent: Meta
 nav_order: 100
 ---
 # Code License

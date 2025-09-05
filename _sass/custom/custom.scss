@@ -17,3 +17,48 @@
         max-width: calc(100% - $nav-width) !important;
     }
     }
+
+  #linkTable {
+    table-layout: fixed;
+  }
+
+  #linkTable th:nth-child(1),
+  #linkTable td:nth-child(1) {
+    width: 45%;
+  }
+
+  #linkTable th:nth-child(2),
+  #linkTable td:nth-child(2) {
+    width: 40%;
+  }
+
+  #linkTable th:nth-child(3),
+  #linkTable td:nth-child(3) {
+    width: 15%;
+  }
+
+  td {
+    vertical-align: top;
+    overflow: hidden;
+  }
+
+  td.title,
+  td.description,
+  td.tags {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 1.2em;
+    transition: max-height 0.3s ease, white-space 0.3s ease;
+  }
+  
+  tr.expanded td.title,
+  tr.expanded td.description,
+  tr.expanded td.tags {
+    white-space: normal;
+    max-height: 100em;
+  }
+
+  tr {
+    cursor: pointer;
+  }

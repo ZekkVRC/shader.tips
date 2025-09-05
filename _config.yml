@@ -18,13 +18,16 @@ favicon_ico: /assets/LogoLo4800.gif
 enable_copy_code_button: true
 
 callouts:
-  warning:
+  Warning:
     title: Warning
     color: red
-  caution:
+  Caution:
     title: Caution
     color: yellow
-  dumb:
+  WIP:
+    title: WIP
+    color: yellow
+  VRChat:
     title: VRChat Specific Technique
     color: blue
   ThirdPartyLicense:

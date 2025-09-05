@@ -1,6 +1,6 @@
 ---
 title: Title
-layout: home
+layout: post
 nav_order: 100
 published: False
 ---

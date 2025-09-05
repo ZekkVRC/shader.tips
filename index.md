@@ -3,34 +3,27 @@ title: Home
 layout: home
 nav_order: 1
 ---
-# Welcome!
+# Welcome to Shader.Tips!
 <div style="font-size: 0.9em; color: #858585ff; margin-bottom: 1.5rem;">
   <span style="margin-right: 1.5rem;"><strong>Author:</strong> <a href="{{ site.FirstPartyAuthorLink }}" style="color: inherit;">Zekk</a></span>
   <span style="margin-right: 1.5rem;"><strong>Last updated:</strong> 9/4/2025</span>
   <span><strong>Page Views: </strong><span id="hit-count">...</span></span>
 </div>
 
-Welcome to shader tips.
+Welcome! I'm Zekk!
 
-Shader.tips serves both as a place for my to finally put all of the links I have hoarded over the past few years, and also a place for me to direct people who ask "how do I get started with shaders?"
+I write shaders and cook up assets for people to use in VRChat. Most of my area of interest is in special effects and VFX. 
 
-A lot of the content on the site will likely be biased towards Unity and VRChat focused shader content. That is simply what I am most familiar with. However, I am always interested in general content as well!
+This site serves both as a place for my to finally put all of the links I have hoarded over the past few years, and also a place for me to direct people who ask me: "Where do I start with learning shaders?"<br>
 
-### If you would like to contribute content to the site, there are several ways to do so:
-Links: <br>
-  If you would like to contribute your links to the link directory, you are welcome to do this in one of two ways:<br>
-  1. Make a pull request! Add your link(s) to _data/links.yml, and I will gladly merge them!<br>
-  or<br>
-  2. Make an issue with the link! I am more than happy to add your links for you, just stick them in an issue, and I will add them as soon as I can.<br>
+A lot of the content on the site will likely be biased towards Unity and VRChat focused shader content. It is simply what I am most familiar with. However, there will be a smattering of general computer graphics and tech art content as well!<br>
 
-Fixes:<br>
-  Did I get some math wrong? Or missspelll a word?<br>
-  1. Make a pull request with your fixes! Please explain the error as well!<br>
-  or<br>
-  2. Make an issue with an explanation of the error!<br>
+Everything is still heavily under construction, so pardon my dust!<br>
 
-Articles/Content/Code:<br>
-  If you are interested in contributing articles, code snippets, or other content:<br>
-  1. Make a pull request! Please be sure to clarify what license your contribution is under. I may reject code contributions under non-permissive licenses.<br> Please use the "ThirdPartyArticleTemplate.md" file as a start for your contribution. 
+**If you have never touched a shader before, and you want to try making shaders for Unity/VRChat, start [here](/Pages/GettingStartedWithShadersForUnityVRChat.html).**<br>
+**If you are a shader guru already, you might want to take a look at the link directory to see if there are any gems to add to your collection [here](/Pages/LinkDirectory.html).**<br>
 
-Click "Contribute Knowledge" in the top right corner to go to the repo!
+Please be mindful of licensing when using code or content from this site or others. Any first party code from shader.tips is under [this MIT license](http://127.0.0.1:4000/Pages/License.html). <br>
+In the future, third party code may be contributed to the site that is under a different license, make sure to double check!<br>
+
+If you are interested in contributing to the site, you can find more details [here](\Pages\Contributing.html).
