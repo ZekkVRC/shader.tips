@@ -25,7 +25,7 @@ Everything is still heavily under construction, so pardon my dust!<br>
 **If you have never touched a shader before, and you want to try making shaders for Unity/VRChat, start [here](/Pages/GettingStartedWithShadersForUnityVRChat.html).**<br>
 **If you are a shader guru already, you might want to take a look at the link directory to see if there are any gems to add to your collection [here](/Pages/LinkDirectory.html).**<br>
 
-Please be mindful of licensing when using code or content from this site or others. Any first party code from shader.tips is under [this MIT license](http://127.0.0.1:4000/Pages/License.html). <br>
+Please be mindful of licensing when using code or content from this site or others. Any first party code from shader.tips is under [this MIT license](/Pages/License.html). <br>
 In the future, third party code may be contributed to the site that is under a different license, make sure to double check!<br>
 
 If you are interested in contributing to the site, you can find more details [here](\Pages\Contributing.html).
